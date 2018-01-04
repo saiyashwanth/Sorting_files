@@ -1,8 +1,9 @@
 import os                          
 import shutil                      #To do operations like moving files into folder
 
-#path = '/home/mlritm/Downloads/' 
-path = os.getcwd()                  #Declaring the path of the folder where you want to do sorting
+#path = os.getcwd() 
+path = '/home/mlritm/Downloads/'     #Declaring the path of the folder where you want to do sorting 
+                 
 
 names = os.listdir(path)
 
